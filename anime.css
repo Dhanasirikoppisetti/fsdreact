@@ -1,0 +1,21 @@
+
+.parent{
+    width:200px;
+    height:200px;
+    position: absolute;
+   animation: myanime 2s infinite linear;
+    
+}
+@keyframes myanime{
+    from{
+        background-color: black;
+       top:0px;
+       left:0px;
+    }
+    to{
+        background-color: crimson;
+        top:150px;
+        left:150px;
+
+    }
+}

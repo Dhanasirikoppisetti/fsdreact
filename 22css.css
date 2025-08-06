@@ -1,0 +1,31 @@
+
+.para{
+    color:blue;
+}
+.para1{
+    text-align:justify;
+    text-align-last:right;
+    
+}
+.para2{
+    color: blueviolet;
+    text-decoration: underline #231289 wavy 4px;
+}
+.para3{
+    color: brown;
+    text-transform: capitalize;
+}
+.para4{
+    color: red;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+   list-style: 10px;
+}
+.para5{
+    color: greenyellow;
+    text-shadow: 2px 2px 4px;
+}
+.heading{
+    color:black;
+    text-shadow:2px 2px 4px;
+}

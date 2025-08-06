@@ -1,0 +1,22 @@
+
+.Border{
+    border-top-width: 4px;
+    border-top-color: blue;
+    border-top-style: dashed;
+   
+}
+.Border{
+    border-bottom-width: 4px;
+    border-bottom-color:aqua;
+    border-bottom-style: dashed;
+}
+.Border{
+    border-left-width: 4px;
+    border-left-color: brown;
+    border-left-style: groove ;
+}
+.Border{
+    border-right-width: 4px;
+    border-right-color:blueviolet;
+    border-right-style: dotted;
+}

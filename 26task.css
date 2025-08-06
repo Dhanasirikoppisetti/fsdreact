@@ -1,0 +1,222 @@
+
+.Sun{
+    width:100px;
+    height:100px;
+    border: 2px solid red;
+    background-color: orange;
+     border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    left: 1300px;
+    top:40px;
+
+}
+.road{
+    width:100%;
+    height:40%;
+    border: 2px solid black;
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+.line1{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:20px;
+}
+.line2{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:300px;
+}
+.line3{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:600px;
+}
+.line4{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:900px;
+}
+.line3{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:600px;
+}
+.line4{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:900px;
+}
+.line5{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:1200px;
+}
+.line6{
+    width:100px;
+    height:30px;
+    border:2px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left:1500px;
+}
+ .car{
+    width:120px;
+    height:50px;
+    border:2px solid violet;
+    background-color: rebeccapurple;
+    position: relative;
+    left:60%;
+    top:-10px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+ }
+ 
+ .carbottom{
+    width:150px;
+    height:60px;
+     border:2px solid violet;
+    background-color: rebeccapurple;
+    position: relative;
+    left:-18px;
+    top:50px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius:10% ;
+    border-bottom-right-radius: 10%;
+ }
+ .wheel1{
+    width:50px;
+    height:40px;
+    border: 2px solid  rgba(101, 236, 5, 0.56);
+    background-color: grey;
+    position:relative;
+     left:-10px;
+    top:40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+ }
+.wheel2{
+    width:50px;
+    height:40px;
+    border: 2px solid rgba(101, 236, 5, 0.56);
+    background-color:grey;
+    position:relative;
+     left:80px;
+    top:-5px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+ }
+ .tree1 {
+  position: absolute;
+  top: -260px;       /* Adjust as needed */
+  left: -700px;     /* Adjust as needed */
+  width: 150px;
+  height: 300px;
+}
+
+.leaves1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: -147px;;
+  left: -25px;
+}
+
+.trunk1 {
+  width: 50px;
+  height: 250px;
+  background-color: saddlebrown;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+ .tree2{
+  position: absolute;
+  top: -260px;       
+  left: -400px;
+  width: 150px;
+  height: 300px;
+}
+
+.leaves2{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: -147px;;
+  left: -25px;
+}
+
+.trunk2{
+  width: 50px;
+  height: 250px;
+  background-color: saddlebrown;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+.window1 {
+    width: 40px;
+    height: 30px;
+    background-color: lightblue;
+    border: 2px solid white;
+    position: relative;
+    top: -136px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.window2 {
+    width: 40px;
+    height: 30px;
+    background-color: lightblue;
+    border: 2px solid white;
+    position: relative;
+    top: -170px;
+    left: 65px;
+    border-radius: 5px;
+}
+
+
+   

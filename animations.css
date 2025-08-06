@@ -1,0 +1,20 @@
+
+.demo{
+    width:300px;
+    height:300px;
+    position: relative;
+    animation: myanimation 4s infinite ease-in-out alternate;
+
+}
+@keyframes myanimation{
+    from{
+        background-color: gold;
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        background-color: chocolate;
+        top: 500px;
+        left: 500px;
+    }
+}

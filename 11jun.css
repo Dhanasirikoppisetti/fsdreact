@@ -1,0 +1,170 @@
+
+.parent{
+    width: 100%;
+    height: 100%;
+    animation: mysky 8s infinite ease-in-out;
+    position: relative;
+   
+}
+@keyframes mysky{
+    from{
+        background:linear-gradient(to bottom,skyblue,yellow,orange);
+    }
+    to{
+        background: linear-gradient(to bottom, darkblue, black);
+    }
+}
+.road{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    border: 1px solid silver;
+    animation: myroad 8s infinite;
+}
+@keyframes myroad{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: black;
+    }
+}
+
+.trees{
+    position: absolute;
+    bottom: 100px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.tree{ 
+    position: relative; 
+    width: 120px;  
+    height: 200px; 
+    left: 170px;
+}
+
+.trunk {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    width: 40px;
+    height: 250px;
+    background: brown;
+    border-radius: 5px;
+}
+
+.leaves1, .leaves2, .leaves3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background:green;
+    border-radius: 50%;
+}
+
+.leaves1 {
+    bottom: 200px;
+    left: 50px;
+}
+.leaves2 {
+    bottom: 200px;
+    left: -80px;
+}
+.leaves3 {
+    bottom: 280px;
+    left: -10px;
+}
+.sun{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    animation:mysun 8s infinite ;
+    right: 150px;
+    top:30px;
+}
+@keyframes mysun{
+    from{
+        background-color:orange;
+        box-shadow: 0px 0px 5px 5px orange;
+    }
+    to{
+        background-color: white;
+         box-shadow: 0px 0px 10px 5px grey;
+    }
+}
+.clouds {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  display: flex;
+  gap: 100px; 
+  left:40px;
+}
+
+.cloud {
+  position: relative;
+  width: 150px;
+  height: 100px;
+}
+
+.circle {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+}
+
+.circle1 {
+  width: 80px;
+  height: 80px;
+  left: 20px;
+  top: 10px;
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  left: 50px;
+  top: 0px;
+}
+
+.circle3 {
+  width: 70px;
+  height: 70px;
+  left: 90px;
+  top: 15px;
+}
+.car{
+    position: absolute;
+    bottom: 50px;
+    animation: mycar 8s infinite ease-in-out;
+}
+@keyframes mycar{
+    from{
+        right:0px;
+    }
+    to{
+        right:100%;
+    }
+}
+.hills{
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+}
+.bird{
+    position: absolute;
+    top:50px;
+    animation: mybird 8s infinite ease-in-out;
+}
+@keyframes mybird{
+    from{
+        left:0px;
+    }
+    to{
+        left:100%;
+    }
+}

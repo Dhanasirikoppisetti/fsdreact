@@ -1,0 +1,84 @@
+
+.card{
+    width: 400px;
+    height: 250px;
+    border:2px solid black;
+    border-top-left-radius: 5%;
+    border-top-right-radius:5% ;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+   background-color:black;
+   position: relative;
+}
+.body{
+    font-size: 30px;
+    position: absolute;
+    left:20px;
+    top:20px;
+}
+.chip{
+    position:absolute;
+    left:30px;
+    top:75px;
+     border-top-left-radius: 20%;
+    border-top-right-radius:10% ;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.pin{
+    font-size:30px ;
+    position:absolute;
+     left:20px;
+    top:150px;
+}
+.name{
+     font-size:20px ;
+    position:absolute;
+     left:20px;
+    top:190px;
+}
+.date{
+     font-size:20px ;
+    position:absolute;
+     left:20px;
+    top:220px;
+}
+.image{
+    font-size:20px ;
+    position:absolute;
+     right:20px;
+    top:10px;
+
+}
+.circle1{
+    width: 50px;
+    height:40px;
+    border: 2px solid red;
+    background-color: red;
+    position: absolute;
+     border-top-left-radius: 50%;
+    border-top-right-radius:50% ;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    bottom: 20px;
+    right:70px;
+}
+.circle2{
+    width: 50px;
+    height:40px;
+    border: 2px solid orange;
+    background-color:rgba(255, 165, 0, 0.9); ;
+    position: absolute;
+     border-top-left-radius: 50%;
+    border-top-right-radius:50% ;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    bottom: 20px;
+    right:40px;
+}
+.card2{
+     font-size:20px ;
+    position:absolute;
+     right:30px;
+    bottom:0px;
+}
