@@ -1,0 +1,9 @@
+
+.flower{
+    width: 1000px;
+    height: 1000px;
+    border:4px solid red;
+    background-image: url(./flower2.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}

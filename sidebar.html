@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>
+        Side Bar
+    </title>
+    <style>
+        body{
+            background-color: white
+        }
+        .mobile-options{
+            position: absolute;
+            top: 0px;
+            left:0px;
+            width: 200px;
+            height:100svh;
+            display: flex;
+            align-items: end;
+            flex-direction: column;
+            background-color: rgb(154, 157, 157);
+             border-radius: 5px;
+            transition-property: left 0.5s linear;
+        }
+        .mobile-options div{
+            
+            width: 100%;
+            font-size: 26px;
+            border-radius: 5px;
+            padding: 10px 0px;
+            color: rgb(2, 0, 0);
+            align-items: center;
+            border-bottom: 2px solid white
+        }
+        .mobile-options div:hover{
+            background-color: rgb(98, 101, 101);
+           
+        }
+        span{
+            color:white;
+            font-size: 40px;
+            width: fit-content;
+            cursor: pointer;
+        }
+        .siri{
+                font-size:40px;
+                color: black;
+        }
+    </style>
+</head>
+   <body>
+        <div class="siri"onclick="openn()">&#9776;</div>
+         <div class="mobile-options">
+            <span onclick="closee()">&times;</span>
+            <div>Home</div>
+            <div>My Maya</div>
+            <div>Owl Code</div>
+            <div>Apt Logic</div>
+            <div>ATS</div>
+            <div>Contact</div>
+         </div>
+         <script>
+            function closee(){
+            document.getElementsByClassName("mobile-options")[0].style="left:-200px";
+            }
+            function openn(){
+                document.getElementsByClassName("mobile-options")[0].style="left:0px";
+            }
+         </script>
+
+
+
+
+   </body>
+</html>

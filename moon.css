@@ -1,0 +1,26 @@
+
+.demo{
+    width: 200px;
+    height: 200px;
+    border-radius: 75%;
+    background-color: whitesmoke;
+    animation: mymoon 4s infinite linear alternate;
+}
+@keyframes mymoon{
+    0%{
+        box-shadow: 0px 0px 5px 5px grey;
+    }
+    25%{
+         box-shadow: 0px 0px 10px 10px grey;
+    }
+    50%{
+         box-shadow: 0px 0px 15px 15px grey;
+    }
+    75%{
+         box-shadow: 0px 0px 20px 20px grey;
+    }
+    100%{
+         box-shadow: 0px 0px 25px 25px grey;
+    }
+
+}

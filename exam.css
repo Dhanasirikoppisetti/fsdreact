@@ -1,0 +1,22 @@
+
+.plans.yearly {
+  display: none;
+}
+
+/* When yearly is checked, hide monthly, show yearly */
+#yearly:checked ~ .monthly {
+  display: none;
+}
+
+#yearly:checked ~ .yearly {
+  display: flex; /* or block */
+}
+
+/* When monthly is checked, show monthly, hide yearly */
+#monthly:checked ~ .monthly {
+  display: flex;
+}
+
+#monthly:checked ~ .yearly {
+  display: none;
+}

@@ -1,0 +1,142 @@
+
+.body{
+    width: 750px;
+    height: 250px;
+    border: 2px solid grey;
+    background-color:white;
+    position: relative;
+    
+    flex-wrap: wrap;
+}
+.body2{
+    width: 550px;
+    height: 250px;
+    border:1px solid grey;
+    position: relative;
+    left:10px;
+}
+.logo{
+    position: absolute;
+    left:150px;
+    top:70px;
+}
+ .text{
+    font-size: 30px;
+    position: relative;
+    left:20px;
+    top:35px;  
+} 
+.bigtext{
+    position:absolute;
+    font-size: 40px;
+     right:30px;
+    top:-30px; 
+}
+.date{
+    font-size: 25px;
+    position: absolute;
+    right:40px;
+    top:60px;
+
+}
+.time{
+    font-size: 20px;
+    position: absolute;
+    right:40px;
+    top:90px;
+}
+.venue{
+     font-size: 20px;
+    position: absolute;
+    right:40px;
+    top:110px;
+}
+.pass{
+    font-size: 25px;
+    position: absolute;
+    right:50px;
+    top:130px;
+
+}
+.barcode{
+    position: absolute;
+    right:30px;
+    top:130px;
+    
+}
+.head{
+    font-size: 50px;
+    position:absolute;
+    right:40px;
+    top:20px;
+}
+
+.body4{
+    width: 750px;
+    height: 250px;
+    border: 2px solid grey;
+    background-color:white;
+    position: relative;
+}
+.body3{
+    width: 550px;
+    height: 250px;
+    border:1px solid grey;
+    position: relative;
+    left:10px;
+}
+.logo1{
+    position: absolute;
+    left:150px;
+    top:70px;
+}
+ .text1{
+    font-size: 30px;
+    position: relative;
+    left:20px;
+    top:35px;  
+} 
+.bigtext1{
+    position:absolute;
+    font-size: 40px;
+     right:30px;
+    top:-30px; 
+}
+.date1{
+    font-size: 25px;
+    position: absolute;
+    right:40px;
+    top:60px;
+
+}
+.time1{
+    font-size: 20px;
+    position: absolute;
+    right:40px;
+    top:90px;
+}
+.venue1{
+     font-size: 20px;
+    position: absolute;
+    right:40px;
+    top:110px;
+}
+.pass1{
+    font-size: 25px;
+    position: absolute;
+    right:50px;
+    top:130px;
+
+}
+.barcode1{
+    position: absolute;
+    right:30px;
+    top:130px;
+    
+}
+.head1{
+    font-size: 50px;
+    position:absolute;
+    right:40px;
+    top:20px;
+}

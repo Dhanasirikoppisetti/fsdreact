@@ -1,0 +1,80 @@
+
+.line{
+    color:rgba(255,0,0,0.1);
+}
+.line1{
+    color:rgba(255,0,0,0.3);
+}
+.line2{
+    color:rgba(255,0,0,0.4);
+}
+.line3{
+    color:rgba(255,0,0,0.6);
+}
+.line4{
+    color:rgba(255,0,0,0.8);
+}
+
+.para{
+    color:#73ff00;
+}
+.para1{
+    color:#59ff00c5;
+}
+.para2{
+    color:#00ff2f;
+}
+.para3{
+    color:#079243;
+}
+.para4{
+    color:#00aaa4;
+}
+
+.sec{
+    color:rgba(0,0,255,0.1);
+}
+.sec1{
+    color:rgba(0,0,255,0.3);
+}
+.sec2{
+    color:rgba(0,0,255,0.4);
+}
+.sec3{
+    color:rgba(0,0,255,0.6);
+}
+.sec4{
+    color:rgba(0,0,255,0.8);
+}
+
+.zz{
+    color:rgba(255,255,0,0.3);
+}
+.zz1{
+    color:rgba(255,255,0,0.4);
+}
+.zz2{
+    color:rgba(255,255,0,0.6);
+}
+.zz3{
+    color:rgba(255,255,0,0.8);
+}
+.zz4{
+    color:rgba(255,255,0,1);
+}
+
+.zzz{
+    color:rgba(0,255,255,0.3);
+}
+.zzz1{
+    color:rgba(0,255,255,0.4);
+}
+.zzz2{
+    color:rgba(0,255,255,0.6);
+}
+.zzz3{
+    color:rgba(0,255,255,0.8);
+}
+.zzz4{
+    color:rgba(0,255,255,1);
+}

@@ -1,0 +1,87 @@
+
+body{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+.main-header{
+    width:100%;
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30%;
+    box-shadow: 0px 0px 5px 0px gainsboro;
+}
+.logo{
+    align-content: center;
+    
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+    font-size: 20px;
+    align-content: center;
+    font-weight: bolder;  
+}
+.op1:hover{
+    width: auto;
+    height:30px;
+    border-radius: 10px;
+    align-content: center;
+    background-color: rgb(236, 186, 58);
+    padding:10px;
+}
+.page1{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.content{
+    margin-top: 80px;
+    padding-left: 30px;
+    margin-bottom: 250px;
+}
+.content h1{
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.content span{
+    color:rgb(236, 186, 58);
+}
+.content p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.image1{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.hire{
+    width: 160px;
+    height: 40px;
+    margin-top:150px;
+    border-radius: 10px;
+    background-color:rgb(236, 186, 58);
+     color: white;
+    text-align: center;
+    align-content: center;
+    color: black;
+}
+.poly{
+    position: absolute;
+    right:140px;
+    bottom:170px;
+
+}

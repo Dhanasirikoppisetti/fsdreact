@@ -1,0 +1,17 @@
+.galaxy{
+    width:100%;
+    height: 100vh;
+    z-index:0;
+    position: relative;
+}
+ .sun{
+   z-index: 1;
+   position: absolute;
+   top:280px;
+   left:600px;
+}
+.orbit1{
+    width:
+}
+    
+    

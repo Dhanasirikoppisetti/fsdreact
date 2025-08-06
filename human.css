@@ -1,0 +1,310 @@
+body {
+      background-color: #e6e6e6;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    .character {
+      position: relative;
+      width: 200px;
+    }
+
+   
+    .head {
+      width: 100px;
+      height: 100px;
+      background-color: #fcd7b6;
+      border-radius: 50%;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .hair {
+      position: absolute;
+      top: -20px;
+      width: 100%;
+      height: 50%;
+      background-color: #111;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+    }
+
+    .eye {
+      width: 15px;
+      height: 15px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 35px;
+    }
+
+    .eye::after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+    }
+
+    .eye.left {
+      left: 20px;
+    }
+
+    .eye.right {
+      right: 20px;
+    }
+
+    .ear {
+      width: 10px;
+      height: 20px;
+      background-color: #fcd7b6;
+      position: absolute;
+      top: 40px;
+    }
+
+    .ear.left {
+      left: -10px;
+    }
+
+    .ear.right {
+      right: -10px;
+    }
+
+    .mouth {
+      width: 40px;
+      height: 10px;
+      border-bottom: 2px solid red;
+      border-radius: 0 0 50% 50%;
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    
+    .body {
+      width: 100px;
+      height: 120px;
+      background-color: #eb0707;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .shirt-buttons {
+      position: absolute;
+      top: 20px;
+      left: 45px;
+    }
+
+    .shirt-buttons div {
+      width: 6px;
+      height: 6px;
+      background-color: white;
+      border-radius: 50%;
+      margin: 8px 0;
+    }
+
+    .pocket {
+      position: absolute;
+      top: 30px;
+      right: 10px;
+      width: 20px;
+      height: 20px;
+      border: 1px solid white;
+    }
+
+    .belt {
+      width: 100%;
+      height: 10px;
+      background-color: #deb887;
+      position: absolute;
+      bottom: 0;
+    }
+
+    
+    .arm {
+      width: 80px;
+      height: 15px;
+      background-color: #fcd7b6;
+      position: absolute;
+      top: 5px;
+    }
+
+    .arm.left {
+      left: -80px;
+    }
+
+    .arm.right {
+      right: -80px;
+    }
+
+    .glove {
+      width: 15px;
+      height: 25px;
+      background-color: #b22222;
+      position: absolute;
+      top: -5px;
+      
+
+    }
+
+    .glove.left {
+      left: -15px;
+    }
+
+    .glove.right {
+      right: -15px;
+    }
+
+    
+    .legs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 5px;
+    }
+
+    .leg {
+      width: 20px;
+      height: 60px;
+      background-color: #ffe4c4;
+      position: relative;
+    }
+
+    .shorts {
+      width: 60px;
+      height: 30px;
+      background-color: black;
+      margin: 0 auto;
+      border-bottom: 2px solid white;
+    }
+
+    .socks {
+      width: 100%;
+      height: 10px;
+      background-color: #996633;
+      position: absolute;
+      bottom: 20px;
+    }
+
+    .shoe {
+      width: 100%;
+      height: 15px;
+      background-color: #d62828;
+      position: absolute;
+      top:60px;
+      bottom: 0;
+      border-bottom-left-radius:10%;
+      border-bottom-right-radius:10%;
+    }
+    .finger1{
+        width:18px;
+        height:5px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        left:-18px;
+        top:0px;
+
+    }
+    .finger2{
+        height:5px;
+        width:18px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        left:-18px;
+        top:5px;
+
+
+    }
+    .finger3{
+        height:5px;
+        width:18px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        left:-18px;
+        top:10px;
+
+
+    }
+    
+    .finger4{
+        height:4px;
+        width:18px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        left:-18px;
+        top:15px;
+
+
+    }
+    
+    .finger5{
+        height:3.5px;
+        width:18px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        left:-18px;
+        top:19px;
+
+
+    }
+    .finger6{
+        width:18px;
+        height:5px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        right:-35px;
+        top:-5px;
+
+    }
+     .finger7{
+        width:18px;
+        height:4px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        right:-35px;
+        top:-0px;
+
+    }
+    .finger8{
+        width:18px;
+        height:4px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        right:-35px;
+        top:5px;
+
+    }
+    .finger9{
+        width:18px;
+        height:4px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        right:-35px;
+        top:10px;
+
+    }
+    .finger10{
+        width:18px;
+        height:3.5px;
+        border: 1px solid black;
+        background-color:  #deb887;
+        position: absolute;
+        right:-35px;
+        top:15px;
+
+    }
+    

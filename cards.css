@@ -1,0 +1,42 @@
+
+.card-parent
+{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap:10px;
+}
+.card{
+    width:320px;
+    height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.image
+{
+    width:70%;
+    height: 70%;
+    border-radius: 10px;
+}
+.image img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    gap: 10px;
+    padding-top: 10px;
+}

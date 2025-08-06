@@ -1,0 +1,43 @@
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.parent{
+     width:400px;
+     height: 200px;
+     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 30px;
+    background-color:black;
+    
+}
+.minutes{
+     width:100px;
+     height:100px;
+     border-radius: 3px;
+     background-color: white;
+     border: 1px solid grey;
+     align-content: center;
+     text-align: center;
+     
+}
+.seconds{
+     width:100px;
+     height:100px;
+     border-radius: 3px;
+     background-color: white;
+     border: 1px solid grey;
+     align-content: center;
+     text-align: center;
+     
+}
+.dots{
+     color: white;
+     font-size:100px;
+     margin-bottom: 20px;
+}
